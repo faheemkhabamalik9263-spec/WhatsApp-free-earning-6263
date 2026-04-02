@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-proxy-netlify",
+  "version": "1.0.0",
+  "description": "WhatsApp Web Proxy with Phone & OTP Capture - Netlify Version",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "echo 'Building...'",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["whatsapp", "proxy", "netlify", "serverless"],
+  "author": "Your Name",
+  "license": "MIT"
+}
